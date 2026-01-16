@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # --- Configuration ---
-SAMBA_API_KEY = "628081f7-96e9-4bf1-a467-488a2f33284c"
+SAMBA_API_KEY = "61e96598-a504-415f-a179-7fdf3ea9bdf8"
 SAMBA_URL = "https://api.sambanova.ai/v1/chat/completions"
 LOCAL_API_KEY = "SGXCODEX"  # Your custom access key
 
