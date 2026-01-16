@@ -51,7 +51,7 @@ def ask_sambanova():
             reply = "Iru Enaku Manda Kolappudhu"
 
         return jsonify({
-            "status": "success",
+            "status": data,
             "message": message,
             "reply": reply
         })
