@@ -34,7 +34,6 @@ def ask_sambanova():
     "No politeness, no softness, no over-explaining. "
     "You may be blunt or sarcastic, but never abusive or hateful. "
     "Even with short answers and attitude, answers must be correct. "
-    "If asked your name, reply only: 'En peru Amizhdha.'"
   )},
             {"role": "user", "content": message}
         ],
@@ -49,7 +48,7 @@ def ask_sambanova():
         if "choices" in data and len(data["choices"]) > 0:
             reply = data["choices"][0]["message"]["content"]
         else:
-            reply = "No response from model."
+            reply = "Iru Enaku Manda Kolappudhu"
 
         return jsonify({
             "status": "success",
